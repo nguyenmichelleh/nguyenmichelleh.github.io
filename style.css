@@ -197,10 +197,17 @@ p {
 
 #flavors {
     text-align: center;
-    margin-left: 110px;
-    margin-right: 110px;
+    margin-left: 90px;
+    margin-right: 90px;
     margin-block-start: 80px;
     margin-block-end: 80px;
+}
+
+@media (min-width: 768px) {
+    #flavors {
+        margin-left: 110px;
+        margin-right: 110px;
+    }
 }
 
 .container {
