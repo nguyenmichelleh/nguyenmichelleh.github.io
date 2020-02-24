@@ -1,0 +1,371 @@
+body {
+    background: #fff;
+}
+
+.header {
+    font-family: 'Sarabun', sans-serif;
+    text-transform: uppercase;
+    line-height: 3;
+    width: 100%;
+}
+
+@media (min-width: 768px) {
+    .header {
+    line-height: 5;
+    }
+}
+
+.header a {
+    font-size: 14px;
+    padding: 0px 20px;
+}
+
+ul {
+    padding: 0;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+@media (min-width: 768px) {
+    .header a {
+        padding: 10px 20px
+    }
+    ul {
+        justify-content: flex-start;
+        padding: 0px 25px;
+    }
+}
+
+.header li {
+    display: inline-block;
+}
+
+.header a {
+    display: block;
+    text-decoration: none;
+    color: #333;
+}
+
+.hoverbutton {
+    font-size: 13px;
+    padding: 0px 25px;
+}
+
+@media (min-width: 768px) {
+    .hoverbutton {
+        padding: 0px 20px;
+    }
+}
+
+#cateringdropdown {
+    font-size: 12px;
+}
+
+#lilcakery {
+    font-family: 'Sarabun', sans-serif;
+    text-align: center;
+    margin-block-start: 100px;
+    margin-block-end: 150px;
+}
+
+@media (min-width: 768px) {
+    #lilcakery {
+        margin-block-start: 175px;
+        margin-block-end: 210px;
+    }
+}
+
+#indeximage {
+    font-family: 'Sarabun', sans-serif;
+    text-align: center;
+    object-fit: cover;
+}
+
+h1 {
+    font-family: 'Dancing Script', cursive;
+    color:#505a6b;
+    word-spacing: 0.8em;
+    letter-spacing: 0.6em;
+    line-height: 18em;
+    text-align: center;
+}
+
+#about {
+    text-align: center;
+    margin-left: 40px;
+    margin-right: 40px;
+    margin-block-start: 80px;
+    margin-block-end: 80px;
+}
+
+@media (min-width: 768px) {
+    #about {
+        text-align: center;
+        margin-left: 110px;
+        margin-right: 110px;
+        margin-block-start: 70px;
+        margin-block-end: 80px;
+    }
+}
+
+#about h4 {
+    border: 10px #333;
+}
+
+h2 {
+    font-family: 'Sarabun', sans-serif;
+    text-transform: uppercase;
+    letter-spacing: 0.25em;
+}
+
+h3 {
+    font-family: 'Sarabun', sans-serif;
+    font-style: italic; 
+    text-align: center;
+}
+
+h4 {
+    font-family: 'Sarabun', sans-serif;
+    font-style: italic;
+}
+
+p {
+    font-family: 'Sarabun', sans-serif;
+    font-size: 15px;
+}
+
+@media (min-width: 768px) {
+    p {
+        font-family: 'Sarabun', sans-serif;
+        font-size: 14px;
+    }
+}
+
+#cupcakes {
+    text-align: left;
+    margin-left: 50px;
+    margin-right: 70px;
+    margin-block-start: 80px;
+    margin-block-end: 80px;
+}
+
+@media (min-width: 768px) {
+    #cupcakes {
+        text-align: left;
+        margin-left: 130px;
+        margin-right: 210px;
+        margin-block-start: 70px;
+        margin-block-end: 80px;
+    }
+}
+
+#cakes {
+    text-align: left;
+    margin-left: 50px;
+    margin-right: 70px;
+    margin-block-start: 80px;
+    margin-block-end: 80px;
+
+}
+
+@media (min-width: 768px) {
+    #cakes {
+        text-align: left;
+        margin-left: 130px;
+        margin-right: 210px;
+        margin-block-start: 70px;
+        margin-block-end: 80px;
+    }
+}
+
+#flavors {
+    text-align: center;
+    margin-left: 90px;
+    margin-right: 90px;
+    margin-block-start: 80px;
+    margin-block-end: 80px;
+}
+
+.container {
+    max-width:  1024px;
+    margin: 0 auto;
+}
+
+#faq {
+    background-color: #fff;
+    margin-left: 50px;
+    margin-right: 70px;
+    margin-block-start: 80px;
+    margin-block-end: 80px;
+}
+
+
+@media (min-width: 768px) {
+    #faq {
+        background-color: #fff;
+        margin-left: 130px;
+        margin-right: 100px;
+        margin-block-start: 70px;
+        margin-block-end: 80px;
+    }
+}
+
+#contact {
+    text-align: left;
+    margin-left: 50px;
+    margin-right: 70px;
+    margin-block-start: 80px;
+    margin-block-end: 80px;
+}
+
+@media (min-width: 768px) {
+    #contact {
+        text-align: left;
+        margin-left: 130px;
+        margin-right: 210px;
+        margin-block-start: 70px;
+        margin-block-end: 80px;
+    }
+}
+
+hr {
+    border-top: 1px solid #333;
+    margin: 2rem auto 1rem;
+    width: cover;
+    opacity: .2;
+}
+
+@media (min-width: 768px) {
+    hr {
+    border-top: 1px solid #333;
+    width: 50%;
+    margin: 1.5rem auto 1.5rem;
+    opacity: .2;
+    }
+}
+
+@media (min-width: 768px) {
+    #cupcakes hr {
+    border-top: 1px solid #333;
+    width: 50%;
+    margin: 1.5rem auto 1.5rem;
+    margin-left: 0px;
+    opacity: .2;
+    }
+}
+
+@media (min-width: 768px) {
+    #cakes hr {
+    border-top: 1px solid #333;
+    width: 50%;
+    margin: 1.5rem auto 1.5rem;
+    margin-left: 0px;
+    opacity: .2;
+    }
+}
+
+@media (min-width: 768px) {
+    #contact hr {
+    border-top: 1px solid #333;
+    width: 50%;
+    margin: 1.5rem auto 1.5rem;
+    margin-left: 0px;
+    opacity: .2;
+    }
+}
+
+form {
+    font-family: 'Sarabun', sans-serif;
+}
+
+#cateringdropdown {
+    display: none;
+}
+
+#cateringmenu:hover #cateringdropdown  {
+    display: block;
+    position: absolute;
+    top: 45px;
+    left: 35px;
+    background: rgb(249, 247, 255);
+    z-index: 10;
+}
+
+#cateringmenu {
+    position: relative;
+}
+
+@media (min-width: 768px) {
+    #cateringmenu:hover #cateringdropdown {
+        display: block;
+        position: absolute;
+        top: 70px;
+        left: 45px;
+        background: rgb(249, 247, 255);
+        z-index: 10;
+    }
+}
+
+.collapsible {
+background-color: #fff;
+color: #413d42;
+cursor: pointer;
+padding: 20px;
+width: 100%;
+border: none;
+text-align: left;
+outline: none;
+font-size: 15px;
+}
+
+.active, .collapsible:hover {
+    background-color: rgb(249, 247, 255);
+  }
+
+.content {
+    padding: 0 18px;
+    background-color: #fff;
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height 0.2s ease-out;
+  }
+
+.gallery {
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-block-start: 80px;
+    margin-block-end: 40px;
+  }
+
+@media (min-width: 768px) {
+    .gallery {
+        margin-left: 140px;
+        margin-right: 140px;
+        margin-block-start: 70px;
+        margin-block-end: 80px;
+    }
+}
+
+.thumbnails {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.wrapper {
+    flex: 1 0 35%;
+    position: relative;
+}
+
+@media (min-width: 768px) {
+    .wrapper {
+        flex: 1 0 25%;
+        position: relative;
+    }
+}
+
+img {
+    width: 100%;
+    height: 100%;
+    object-fit: 10px;
+}
